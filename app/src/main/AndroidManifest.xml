@@ -17,6 +17,15 @@
         </activity>
 
         <activity android:name=".lesson2.ThirdActivity">
+
+        </activity>
+
+        <activity android:name=".lesson3.ToolbarActivity"
+            android:label="ToolbarActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".lesson3.ButtonsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
