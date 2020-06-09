@@ -11,4 +11,16 @@
     <string name="buttonFlatBounded">Button bouned</string>
     <string name="buttonRaised">Button raised</string>
     <string name="buttonRaisedBounded">Raised Bounded</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mao Zedong</string>
+    <string name="nav_header_subtitle">Zhōngguó Gòngchǎndǎng</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="show">Show Progress</string>
+    <string name="hide">Hide Progress</string>
 </resources>
