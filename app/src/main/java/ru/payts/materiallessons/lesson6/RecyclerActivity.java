@@ -32,5 +32,4 @@ public class RecyclerActivity extends AppCompatActivity {
         // recyclerView.setItemAnimator(new DefaultItemAnimator());
     }
 
-
 }
