@@ -34,5 +34,11 @@
     <string name="title_dashboard">Earth</string>
     <string name="title_notifications">Saturn</string>
     <string name="title_activity_bottom">BottomActiviry</string>
+    <string name="button1">RedStyle</string>
+    <string name="button2">Orange Style</string>
+    <string name="button3">Yellow style</string>
+    <string name="button4">Green Style</string>
+    <string name="button5">Blue Style</string>
+    <string name="title_activity_Style">Style Activity</string>
 
 </resources>

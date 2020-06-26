@@ -8,4 +8,16 @@
     <color name="secondaryDarkColor">#c43e00</color>
     <color name="primaryTextColor">#ffffff</color>
     <color name="secondaryTextColor">#000000</color>
+
+    <color name="colorPrimaryRed">#F44336</color>
+    <color name="colorPrimaryDarkRed">#D32F2F</color>
+    <color name="colorAccentRed">#00BCD4</color>
+
+    <color name="colorPrimaryYellow">#FFEB3B</color>
+    <color name="colorPrimaryDarkYellow">#FBC02D</color>
+    <color name="colorAccentYellow">#03A9F4</color>
+
+    <color name="colorPrimaryGreen">#4CAF50</color>
+    <color name="colorPrimaryDarkGreen">#388E3C</color>
+    <color name="colorAccentGreen">#FF5722</color>
 </resources>

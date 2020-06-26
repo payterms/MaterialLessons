@@ -9,10 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".lesson8.ThemeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
         <activity
             android:name=".lesson4.NavDrawerActivity"
             android:label="@string/title_activity_nav_drawer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".lesson2.FirstActivity" />
         <activity android:name=".lesson2.SecondActivity" />
         <activity android:name=".lesson2.ThirdActivity" />
@@ -20,49 +29,34 @@
             android:name=".lesson3.ToolbarActivity"
             android:label="ToolbarActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".lesson3.ButtonsActivity"></activity>
+        <activity android:name=".lesson3.ButtonsActivity" />
         <activity
             android:name=".lesson4.ProgressToolbarActivity"
             android:label="ProgressActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".lesson5.ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".lesson6.RecyclerActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".lesson5.FabActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar">
-
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".lesson7.tabs.TabActivity"
             android:label="@string/title_activity_tab"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".lesson7.bottom.BottomActivity"
-            android:label="@string/title_activity_bottom">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:label="@string/title_activity_bottom"></activity>
+        <activity
+            android:name=".lesson8.StyleActivity"
+            android:label="@string/title_activity_Style">
+
         </activity>
 
     </application>
