@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lesson3.ButtonsActivity">
+
+    <Button
+        android:id="@+id/buttonFlat"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="181dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="96dp"
+        android:onClick="flatButton"
+        android:text="@string/buttonFlat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonFlatRound"
+        android:background="@drawable/flat_button"
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="27dp"
+        android:onClick="flatButton"
+        android:text="@string/buttonFlatBounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFlat" />
+
+    <Button
+        android:id="@+id/buttonRaised"
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="29dp"
+        android:onClick="raisedButton"
+        android:text="@string/buttonRaised"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFlatRound" />
+
+    <Button
+        android:id="@+id/buttonRaisedRound"
+        android:backgroundTint="@color/primaryLightColor"
+
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:onClick="raisedButton"
+        android:text="@string/buttonRaisedBounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRaised" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:onClick="FAB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        android:focusable="true" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
